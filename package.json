@@ -11,6 +11,7 @@
     "start:frontend": "cd packages/frontend && yarn start",
     "format": "yarn prettier --check packages/**/*.{ts,js,md}",
     "format:fix": "yarn prettier --write packages/**/*.{ts,js,md}"
+    "start": "node main.js"
   },
   "devDependencies": {
     "esbuild": "^0.25.3",
