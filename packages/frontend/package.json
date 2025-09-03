@@ -26,6 +26,7 @@
     "start": "vite --open",
     "start:frontend": "cd .. && yarn start:frontend",
     "cdk": "cd .. && yarn cdk"
+    "start": "node main.js"
   },
   "keywords": [
     "modular",
